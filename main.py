@@ -17,7 +17,8 @@ def load_databases() -> None:
 
     info = pipeline.run(data)
     print(info)
+    return "data loaded successfully"
 
-
-if __name__ == "__main__":
-    load_databases()
+def main(request):
+    return load_databases()
+    
