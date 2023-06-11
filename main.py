@@ -19,6 +19,6 @@ def load_databases() -> None:
     print(info)
     return "data loaded successfully"
 
-def main(request):
+def mainpipeline(request):
     return load_databases()
     
